@@ -12,3 +12,4 @@ lines(v[,c(1,8)],col="red")
 lines(v[,c(1,9)],col="blue")
 legend('topright', names(v)[7:9], lty=1, col=c('black', 'red', 'blue'))
 dev.off()
+
