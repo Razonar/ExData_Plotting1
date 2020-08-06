@@ -9,3 +9,4 @@ v$Global_active_power <- as.numeric(v$Global_active_power)
 png("plot2.png")
 plot(v[,c(1,3)],type="l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
+
