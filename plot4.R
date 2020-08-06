@@ -16,3 +16,4 @@ lines(v[,c(1,9)],col="blue")
 legend('topright', names(v)[7:9], lty=1, col=c('black', 'red', 'blue'),box.lwd = 0,box.col = "white",bg = "white")
 plot(v[,c(1,4)],type="l",ylab=names(v)[4],xlab="datetime")
 dev.off()
+
